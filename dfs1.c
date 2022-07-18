@@ -12,7 +12,7 @@ void dfs(int v) {
 }
 void main() {
 	int i,j,count=0;
-	clrscr();
+
 	printf("\n Enter number of vertices:");
 	scanf("%d",&n);
 	for (i=1;i<=n;i++) {
@@ -31,7 +31,8 @@ void main() {
 		   count++;
 	}
 	if(count==n)
-	  printf("\n Graph is connected"); else
+	  printf("\n Graph is connected");
+	   else
 	  printf("\n Graph is not connected");
-	getch();
+
 }
